@@ -1,9 +1,54 @@
-body {
-  font-family: 'Scope One', serif;
+.gold{
+  color: rgb(184, 146, 1);
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Raleway', sans-serif;
+.grey{
+  color: #BBB;
+}
+
+.text-bold{
+  font-weight: 700;
+}
+
+.rsvp {
+  font-family: 'Roboto Slab', serif;
+  display: block;
+  margin: auto;
+  text-decoration: underline;
+  font-size: 1.5em;
+}
+
+header {
+  padding: 2.5em;
+  font-family: 'Robot Condensed', sans-serif;
+}
+
+.header-main {
+  display: inline-block;
+  width: 25em;
+  margin: auto;
+  line-height: 3em;
+}
+
+.header-right {
+  display: inline-block;
+  transform: translateX(-50%) translateY(-135%) rotate(90deg);
+  width: 2em;
+}
+
+.header-text-sm {
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+.header-text-md {
+  font-size: 3.5em;
+  text-transform: uppercase;
+}
+
+.header-text-lg {
+  font-size: 5.35em;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -27,65 +72,41 @@ h1 {
 }
 
 
-/* Taken from https://iprodev.github.io/Scrollax.js/backgrounds.html */
-body {
-  background: #f5f5f5;
-  color: #666;
-}
-
 section {
-  position: relative;
   display: block;
   width: 100%;
-  height: 500px;
-  height: 100vh;
-  overflow: hidden;
-  color: #BBB;
 }
 
-section .cover {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-
-section .cover img {
-  position: absolute;
-  display: block;
-  min-width: 100%;
-  min-height: 100%;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-section .content {
-  position: absolute;
-  display: block;
+.dark {
   background: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  height: 100%;
-  z-index: 2;
 }
 
-section .text {
-  width: 50%;
+.light {
+  background: white;
 }
 
-.centralize {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translateZ(0px) translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+subheader {
+  padding: 2.5em;
+  display: block;
+  margin: auto;
+  font-family: 'Robot Condensed', sans-serif;
 }
 
-@media screen and (max-width: 1000px) {
-  section .text {
-    width: 90%;
-  }
+.subheader-text {
+  font-size: 2em;
+  display: block;
+  line-height: 1.25em;
 }
-/* Taken from https://iprodev.github.io/Scrollax.js/backgrounds.html */
+
+summary {
+  padding: 2.5em;
+  display: block;
+  margin: auto;
+  font-family: 'Roboto Slab', serif;
+}
+
+.summary-text {
+  font-size: 2em;
+  display: block;
+  line-height: 1.25em;
+}
