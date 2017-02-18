@@ -5,8 +5,7 @@ set :static, true
 
 class App < Sinatra::Base
   get '/' do
-    #erb :index
-    File.read 'index.html'
+    erb :index
   end
 end
 
